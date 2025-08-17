@@ -1,2 +1,2 @@
-# Amazon-Clone
-A front-end clone of Amazon's website using HTML and CSS.
+# Amazon-mini-clone-UI
+ A front-end project on replicating amazon's front-end UI
