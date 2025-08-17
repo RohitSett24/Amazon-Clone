@@ -330,7 +330,7 @@ ul {
 
 @media (max-width: 768px) {
 
-    /* --- Navbar Adjustments --- */
+
     .navbar {
         flex-wrap: wrap; 
         height: auto;    
@@ -338,27 +338,25 @@ ul {
 
     .nav-search {
         width: 95%; 
-        order: 5;   /* Push the search bar to the bottom of the navbar items */
+        order: 5;   
         margin: 10px 0;
     }
 
-    /* Hide less critical elements to save space */
+    
     .nav-add, .nav-lang {
         display: none;
     }
     
     .nav-sign-in .line2 .fa-caret-down {
-        display: none; /* Hide the little dropdown arrow */
+        display: none; 
     }
-
-    /* --- Panel Adjustments --- */
-    /* Hide the text links in the sub-nav, leaving only the hamburger menu */
+    
     .panel-options, .panel-deals {
         display: none;
     }
 
     .panel {
-        justify-content: flex-start; /* Align "All" to the left */
+        justify-content: flex-start; 
     }
 
     .panel-all {
@@ -383,22 +381,20 @@ ul {
         text-align: center;
         position: absolute;
     }
-
-    /* --- Shop Section (Product Cards) --- */
+    
     .shop-section {
-        flex-direction: column; /* Stack cards vertically */
-        align-items: center;    /* Center the cards in the column */
+        flex-direction: column; 
+        align-items: center;    
     }
 
     .box {
-        width: 90%; /* Make each card take up most of the screen width */
+        width: 90%; 
         margin-bottom: 15px;
     }
 
-    /* --- Footer Adjustments --- */
     .footer-panel2 {
-        flex-direction: column; /* Stack footer lists vertically */
-        height: auto;           /* Let footer height be determined by content */
+        flex-direction: column; 
+        height: auto;         
         align-items: flex-start;
         padding-left: 30px;
     }
